@@ -11,6 +11,6 @@ Our centralized information point will be on a laptop, that will support both th
 
 ## Visual diagram of the project
 <p align="center">
-<img src="https://i.imgur.com/c0u0SMA.png" 
-alt="Diagram layout" width="704" height="450" border="10" />
+<img src="https://i.imgur.com/pcwJQI7.png" 
+alt="Diagram layout" width="680" height="680" border="10" />
 </p>
