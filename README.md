@@ -14,3 +14,15 @@ Our centralized information point will be on a laptop, that will support both th
 <img src="https://i.imgur.com/pcwJQI7.png" 
 alt="Diagram layout" width="680" height="680" border="10" />
 </p>
+
+## MQTT Pub/Sub channel examples
+mosquitto_pub -h 127.0.0.1 -m "movement detected" -t alarm/proximitysensor -d
+mosquitto_pub -h 127.0.0.1 -m "moving to movement" -t alarm/zumorobot -d
+mosquitto_pub -h 127.0.0.1 -m "object detected" -t alarm/zumorobot -d
+mosquitto_pub -h 127.0.0.1 -m "alarm ON" -t alarm/gui -d
+mosquitto_pub -h 127.0.0.1 -m "alarm OFF" -t alarm/gui -d
+mosquitto_pub -h 127.0.0.1 -m "alarm RESET" -t alarm/gui -d
+
+mosquitto_sub -h 127.0.0.1 -t alarm/proximitysensor -d
+mosquitto_sub -h 127.0.0.1 -t alarm/zumorobot -d
+mosquitto_sub -h 127.0.0.1 -t alarm/gui -d
