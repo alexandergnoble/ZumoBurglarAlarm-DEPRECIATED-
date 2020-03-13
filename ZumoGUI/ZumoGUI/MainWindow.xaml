@@ -19,11 +19,12 @@
         <TextBlock x:Name="lblOutput1" HorizontalAlignment="Left" Height="41" Margin="27,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="346" FontSize="22" FontFamily="Consolas" FontWeight="Bold"><Run Text="Robot"/><Run Text=" log/"/><Run Text="output:"/></TextBlock>
         <TextBox x:Name="txtOutput2" HorizontalAlignment="Left" Height="128" Margin="27,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="393" BorderBrush="White" HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True" Grid.ColumnSpan="2" Foreground="White" SelectionBrush="White"/>
         <TextBlock x:Name="lblOutput2" HorizontalAlignment="Left" Height="41" Margin="27,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="346" FontSize="22" FontFamily="Consolas" FontWeight="Bold"><Run Text="Proximity sensor"/><Run Text=" "/><Run Text="log/outp"/><Run Text="ut:"/></TextBlock>
-        <Slider HorizontalAlignment="Left" Height="26" Margin="80,164,0,0" VerticalAlignment="Top" Width="122" TickPlacement="BottomRight" TickFrequency="0" IsSnapToTickEnabled="True" Grid.ColumnSpan="2" Grid.Column="2"/>
         <Label x:Name="lblStatus" Grid.ColumnSpan="2" Content="Alarm Status" HorizontalAlignment="Left" Height="40" Margin="75,124,0,0" VerticalAlignment="Top" Width="136" FontSize="20" Grid.Column="2" FontWeight="Bold"/>
         <Label x:Name="lblStatus_Copy" Content="ON" HorizontalAlignment="Left" Height="38" Margin="18,152,0,0" VerticalAlignment="Top" Width="42" FontSize="20" Background="#00000000" FontWeight="Bold" Grid.Column="2"/>
         <Label x:Name="lblStatus_Copy1" Content="OFF" HorizontalAlignment="Left" Height="38" Margin="72,152,0,0" VerticalAlignment="Top" Width="58" FontSize="20" Grid.Column="3" FontWeight="Bold"/>
         <Button x:Name="btnClearLogs" Content="Clear Logs" HorizontalAlignment="Left" Height="39" Margin="10,225,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold" FontSize="14" Grid.Column="3"/>
+        <CheckBox Content="" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="65,164,0,0" VerticalAlignment="Top" Width="84" Grid.ColumnSpan="2"/>
+        <CheckBox Content="" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="44,164,0,0" VerticalAlignment="Top" Width="71"/>
 
     </Grid>
 </Window>
