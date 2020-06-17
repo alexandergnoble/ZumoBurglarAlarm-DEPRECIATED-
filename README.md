@@ -1,4 +1,4 @@
-# ZumoBurglarAlarm
+# ZumoBurglarAlarm (Depreciated)
 "Programming Things" Semester 2 Assignment 2 - Zumo burglar alarm - Alexander Noble, Cranston Parker, Andrew Gill
 
 ## Kanban Board
